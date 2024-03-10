@@ -1,15 +1,29 @@
 {
   "name": "seed-phrase-wordlist",
   "version": "1.0.0",
-  "description": "",
+  "description": "A utility package to generate a list of BIP-39 words for seed phrases.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "seed",
+    "phrase",
+    "wordlist",
+    "BIP-39",
+    "mnemonic"
+  ],
+  "author": "peppyeben",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peppyeben/seed-phrase-wordlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peppyeben/seed-phrase-wordlist/issues"
+  },
+  "homepage": "https://github.com/peppyeben/seed-phrase-wordlist#readme"
 }
